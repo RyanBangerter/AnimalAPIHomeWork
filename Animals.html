@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Animal Buttons</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- div to hold array of animals -->
+  <div id="Animal-buttons">
+   
+    
+  </div>
+  <div class="container" style="margin-top: 100px">
+    <div class="row">
+      <div class="col-12" align="right">
+        <form id="animal-form">
+          <label for="animal-input">Add an Animal</label>
+          <input type="text" name="animals"><br>
+          <input type="button" onclick="myfunction()"  value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <!-- <button data-animal="cat">meow</button>
+  <button data-animal="dog">woof</button>
+  <button data-animal="bird">chirp</button> -->
+  <div id="animals">
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="animals.js"></script>
+
+
+
+   
+</body>
+
+</html>
